@@ -18,7 +18,7 @@ const Resturant = () => {
         }}
         >
 
-        <Link href={'/'}>
+        <Link href={'/details'} asChild>
             <TouchableOpacity>
                 <View style={styles.categoryCard}> 
                     <Image style={styles.img} source={require('../assets/images/img3.png')}/>
@@ -31,7 +31,7 @@ const Resturant = () => {
             </TouchableOpacity>
         </Link>
 
-        <Link href={'/'}>
+        <Link href={'/details'} asChild>
             <TouchableOpacity>
                 <View style={styles.categoryCard}> 
                     <Image style={styles.img} source={require('../assets/images/img1.png')}/>
@@ -44,7 +44,7 @@ const Resturant = () => {
             </TouchableOpacity>
         </Link>
 
-        <Link href={'/'}>
+        <Link href={'/details'} asChild>
             <TouchableOpacity>
                 <View style={styles.categoryCard}> 
                     <Image style={styles.img} source={require('../assets/images/img2.png')}/>
@@ -57,7 +57,7 @@ const Resturant = () => {
             </TouchableOpacity>
         </Link>
 
-        <Link href={'/'}>
+        <Link href={'/'} asChild>
             <TouchableOpacity>
                 <View style={styles.categoryCard}> 
                     <Image style={styles.img} source={require('../assets/images/img1.png')}/>

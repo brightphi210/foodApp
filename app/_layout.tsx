@@ -43,6 +43,11 @@ export default function RootLayoutNav() {
           presentation : 'fullScreenModal',
           headerTitle : 'Search Location',
         }}/>
+
+        <Stack.Screen name='details' options={{
+          headerTitle : 'Details',
+          headerTitleAlign : 'center',
+        }}/>
       </Stack>
     </BottomSheetModalProvider>
 
